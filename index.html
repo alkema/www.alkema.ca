@@ -1,72 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width; minimum-scale=1; maximum-scale=1" />
-    <meta name="author" content="Jody Alkema" />
-    <title>Jody Alkema</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Jody Alkema">
+    <title>Jody Alkema | Software Developer | Vancouver, B.C.</title>
+
+    <link rel="canonical" href="https://www.alkema.ca/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <style>
-      #content {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 480px;
-      }
-      h1, h2, li, p {
-        font-family: "Lato";
-        color:#1C1C1C;
-      }
-      a:link {
-        color: #FF69B4;
-      }
+      /*
+       * Globals
+       */
 
-      a:visited {
-        color: #2C75FF;
-      }
-
+      /* Links */
+      a,
+      a:focus,
       a:hover {
-        text-decoration: none;
+        color: #0000CD;
+      }
+
+      /*
+       * Base structure
+       */
+
+      html,
+      body {
+        height: 100%;
+        background-color: #FFF;
+      }
+
+      body {
+        display: -ms-flexbox;
+        display: flex;
+        color: #999;
+      }
+
+      .cover-container {
+        max-width: 42em;
+      }
+
+
+      /*
+       * Header
+       */
+      .masthead {
+        margin-bottom: 2rem;
+      }
+
+      .masthead-brand {
+        margin-bottom: 0;
+      }
+
+      .nav-masthead .nav-link {
+        padding: .25rem 0;
+        font-weight: 700;
+        color: rgba(255, 255, 255, .5);
+        background-color: transparent;
+      }
+
+      .nav-masthead .nav-link + .nav-link {
+        margin-left: 1rem;
+      }
+
+      .nav-masthead .active {
+        color: #999;
+        border-bottom-color: #fff;
+      }
+
+      /*
+       * Cover
+       */
+      .cover {
+        padding: 0 1.5rem;
+      }
+      .cover .btn-lg {
+        padding: .75rem 1.25rem;
+        font-weight: 700;
+      }
+
+      .section {
+        padding-top: 2em;
       }
     </style>
   </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <main role="main">
+        <div class="section">
+          <h1 class="cover-heading">Jody Alkema</h1>
+          <p class="text-justify">I am a software developer that lives and works out of White Rock, B.C. in Canada. I build software and teams that build software.</p>
+          <p class="text-justify">Feel free to <a href="mailto:jody@alkema.ca">email me</a>! </p>
+        </div>
 
-  <body>
-    <div id="content">
+        <div class="section">
+          <h2>CLIENT LIST</h2>
 
-      <h1>Jody Alkema</h1>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="http://www.efax.com">eFax</a></li>
+            <li class="list-group-item"><a href="http://www.j2global.com/">j2 Global</a></li>
+            <li class="list-group-item"><a href="http://www.raymondjames.ca">Raymond James Ltd.</a></li>
+            <li class="list-group-item"><a href="http://www.bcaa.com">BCAA</a></li>
+            <li class="list-group-item"><a href="http://www.domain7.com/">Domain7 Solutions</a></li>
+            <li class="list-group-item"><a href="http://nonfiction.ca/">nonfiction studios inc.</a></li>
+            <li class="list-group-item"><a href="http://resources.orapub.com/">OraPub, Inc.</a></li>
+            <li class="list-group-item"><a href="http://www.sierrasystems.com/">Sierra Systems</a></li>
+            <li class="list-group-item"><a href="https://www.peek.com/pro/">Peek</a></li>
+          </ul>
+        </div>
 
-      <p> I am a software developer that lives and works out of White Rock, B.C. in Canada. I build software and teams that build software.</p>
-      <p> Feel free to <a href="mailto:jody@alkema.ca">email me</a>! </p>
+        <div class="section">
+          <h2>PUBLICATIONS</h2>
 
-      <h2>CLIENT LIST</h2>
+          <p class="text-justify">Technical Reviewer - Forecasting Oracle Performance By Craig Shallahamer</p>
 
-      <ul>
-        <li><a href="http://www.efax.com">eFax</a></li>
-        <li><a href="http://www.j2global.com/">j2 Global</a></li>
-        <li><a href="http://www.raymondjames.ca">Raymond James Ltd.</a></li>
-        <li><a href="http://www.bcaa.com">BCAA</a></li>
-        <li><a href="http://www.domain7.com/">Domain7 Solutions</a></li>
-        <li><a href="http://www.envisionfoundation.ca/">Envision Foundation</a></li>
-        <li><a href="http://www.jjpeople.com/public/locations/common/home.htm">JJ People</a></li>
-        <li><a href="http://kapercreative.com">Kaper Creative</a></li>
-        <li><a href="http://nonfiction.ca/">nonfiction studios inc.</a></li>
-        <li><a href="http://resources.orapub.com/">OraPub, Inc.</a></li>
-        <li><a href="http://www.pivotib.com/">Pivot.IB</a></li>
-        <li><a href="http://www.sierrasystems.com/">Sierra Systems</a></li>
-      </ul>
+          <p class="text-justify">
+            <a href="http://books.google.com/books?id=456LnTeHhWcC">
+              <img src="http://books.google.com/books?id=456LnTeHhWcC&printsec=frontcover&img=1&zoom=1&sig=ACfU3U0TnUA5B3Ie3Gbbd6J71epga2oy5g" width="128" height="174" />
+            </a>
+          </p>
+        </div>
+      </main>
 
-      <h2>PUBLICATIONS</h2>
-
-      <p>Technical Reviewer - Forecasting Oracle Performance By Craig Shallahamer</p>
-
-      <p>
-        <a href="http://books.google.com/books?id=456LnTeHhWcC">
-          <img src="http://books.google.com/books?id=456LnTeHhWcC&printsec=frontcover&img=1&zoom=1&sig=ACfU3U0TnUA5B3Ie3Gbbd6J71epga2oy5g" width="128" height="174" />
-        </a>
-      </p>
-
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>
+            <a href="mailto:jody@alkema.ca">jody@alkema.ca</a>
+          </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
